@@ -1,0 +1,48 @@
+.jumbotron{
+    border-radius: 0;
+  }
+  .contents{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card-img{
+    height: 300px;
+    width: 300px;
+  }
+  
+  @media (max-width: 740px) {
+  
+    hr {
+      height: 0;
+      width: 0;
+    }
+  
+  }
+  .overlay{
+    background-color: rgba(0,0,0,0.0);
+    height: inherit;
+  }
+  .user{
+    font-size: 30px;
+    color: black;
+  }
+  .gsearch{
+    font-size: 60px;
+    color: rgb(105, 122, 5);
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .footer-text{
+    font-family: system-ui, serif;
+    padding-top: 20px;
+    padding-bottom:-40px;
+    color: white;
+  }
+  #fa-love{
+    color: rgb(207, 161, 161);
+    opacity: 0.7;
+  }
+  .fa{
+    color: red;
+  }
