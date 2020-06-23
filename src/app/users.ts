@@ -1,4 +1,3 @@
-
 export class Users {
     avatar_url: any;
     login: any;
