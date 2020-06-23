@@ -9,6 +9,7 @@ import { UserDataComponent } from './user-data/user-data.component';
 import { SearchUserComponent } from './search-user/search-user.component';
 import { RepoListComponent } from './repo-list/repo-list.component';
 import { DatePipePipe } from './date-pipe.pipe';
+import { LogoHighlightDirective } from './logo-highlight.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DatePipePipe } from './date-pipe.pipe';
     UserDataComponent,
     SearchUserComponent,
     RepoListComponent,
-    DatePipePipe
+    DatePipePipe,
+    LogoHighlightDirective
   ],
   imports: [
     BrowserModule,
