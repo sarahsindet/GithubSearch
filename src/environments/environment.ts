@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  APIKEY: '59ce65acbb8db5d030fb51cb44b22b832e6a67e7'
+  APIKEY: 'd53873d6278f859383d2179a594b42ca80f247ec'
 };
 /*
  * For easier debugging in development mode, you can import the following file
