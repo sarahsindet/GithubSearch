@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {MyServiceService} from '../my-service.service';
+import {MyServiceService} from '../my-service/my-service.service'
 import {GitUser} from '../git-user';
 
 @Component({
@@ -27,9 +27,10 @@ export class UserDataComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getSearchedUser('monicaoyugi');
+    this.getSearchedUser('sarahsindet');
     let particlesJS;
     particlesJS.load('particles-js', 'particles.json', null);
   }
+
 
 }
