@@ -10,6 +10,8 @@ import { SearchUserComponent } from './search-user/search-user.component';
 import { RepoListComponent } from './repo-list/repo-list.component';
 import { DatePipePipe } from './date-pipe.pipe';
 import { LogoHighlightDirective } from './logo-highlight.directive';
+import { GoalFormComponent } from './goal-form/goal-form.component';
+import { UserRepoListComponent } from './user-repo-list/user-repo-list.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { LogoHighlightDirective } from './logo-highlight.directive';
     SearchUserComponent,
     RepoListComponent,
     DatePipePipe,
-    LogoHighlightDirective
+    LogoHighlightDirective,
+    GoalFormComponent,
+    UserRepoListComponent
   ],
   imports: [
     BrowserModule,

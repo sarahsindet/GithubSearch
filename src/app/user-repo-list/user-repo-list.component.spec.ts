@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RepoListComponent } from './repo-list.component';
+import { UserRepoListComponent } from './user-repo-list.component';
 
-describe('RepoListComponent', () => {
-  let component: RepoListComponent;
-  let fixture: ComponentFixture<RepoListComponent>;
+describe('UserRepoListComponent', () => {
+  let component: UserRepoListComponent;
+  let fixture: ComponentFixture<UserRepoListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RepoListComponent ]
+      declarations: [ UserRepoListComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RepoListComponent);
+    fixture = TestBed.createComponent(UserRepoListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
